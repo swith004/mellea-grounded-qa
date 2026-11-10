@@ -1,0 +1,47 @@
+{
+  "snapshot_date": "2026-11-10",
+  "documents": [
+    {
+      "path": "corpus/academic_standing.md",
+      "title": "Undergraduate Academic Standing",
+      "official_source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+      "qa_count": 8,
+      "type": "curated_paraphrase"
+    },
+    {
+      "path": "corpus/grading.md",
+      "title": "Grades and Grading System",
+      "official_source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+      "qa_count": 9,
+      "type": "curated_paraphrase"
+    },
+    {
+      "path": "corpus/bachelors.md",
+      "title": "Bachelor's Degree",
+      "official_source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+      "qa_count": 8,
+      "type": "curated_paraphrase"
+    },
+    {
+      "path": "corpus/forgiveness.md",
+      "title": "Grade Forgiveness",
+      "official_source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+      "qa_count": 7,
+      "type": "curated_paraphrase"
+    },
+    {
+      "path": "corpus/transfer.md",
+      "title": "Undergraduate Transfer Credit",
+      "official_source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+      "qa_count": 7,
+      "type": "curated_paraphrase"
+    },
+    {
+      "path": "corpus/ucc.md",
+      "title": "University Core Curriculum",
+      "official_source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/undergraduate-requirements/universitycore",
+      "qa_count": 6,
+      "type": "curated_paraphrase"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+id,question,expected_answer,answerable,source_document,source_url,supporting_passage,difficulty,reason_unanswerable
+U001,What is the exact tuition charge for a 3-credit undergraduate course this semester?,I don't know based on the provided documents.,False,,,,unanswerable,No tuition or fee schedule is included in the six-document corpus.
+U002,What is the name of the advisor assigned to student Maria Lopez?,I don't know based on the provided documents.,False,,,,unanswerable,The corpus has no student records or advisor assignments.
+U003,How many FIU students were placed on academic warning in fall 2026?,I don't know based on the provided documents.,False,,,,unanswerable,The corpus contains policy triggers but not student counts.
+U004,What date and time is the next FIU commencement ceremony?,I don't know based on the provided documents.,False,,,,unanswerable,No commencement calendar or schedule is included.
+U005,What is the current price of an FIU parking permit?,I don't know based on the provided documents.,False,,,,unanswerable,The corpus contains no parking permit prices.
+U006,Which professor teaches ENC 1101 section U01 in spring 2027?,I don't know based on the provided documents.,False,,,,unanswerable,No course section schedules or instructor assignments are included.
+U007,What was FIU's total institutional budget for fiscal year 2025–26?,I don't know based on the provided documents.,False,,,,unanswerable,No institutional financial statements or budget totals are included.
+U008,How many students used grade forgiveness during the last academic year?,I don't know based on the provided documents.,False,,,,unanswerable,No historical usage statistics are included.
+U009,What is the exact GPA shown on Jason Smith's unofficial transcript?,I don't know based on the provided documents.,False,,,,unanswerable,No individual academic transcript is present.
+U010,Will FIU waive the residency requirement for a specific student next semester?,I don't know based on the provided documents.,False,,,,unanswerable,"The corpus gives general residency rules, not future case-specific approvals."
+U011,What is the phone number of the dean who will review my major-change request?,I don't know based on the provided documents.,False,,,,unanswerable,No personnel directory or dean contact numbers are provided.
+U012,How many transfer credits from a specific unreviewed overseas university will be accepted?,I don't know based on the provided documents.,False,,,,unanswerable,No institution-specific course evaluation or transfer decision is provided.
+U013,What was the average grade in FIU's Calculus I sections last fall?,I don't know based on the provided documents.,False,,,,unanswerable,The corpus includes grading rules but no class grade distributions.
+U014,Does FIU plan to change the grade-forgiveness limit in 2028?,I don't know based on the provided documents.,False,,,,unanswerable,No future proposed policy changes or decisions are described.
+U015,Has my academic dismissal appeal already been approved?,I don't know based on the provided documents.,False,,,,unanswerable,The corpus describes appeals but contains no individual appeal outcomes.
