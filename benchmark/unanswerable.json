@@ -1,0 +1,167 @@
+[
+  {
+    "id": "U001",
+    "question": "What is the exact tuition charge for a 3-credit undergraduate course this semester?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No tuition or fee schedule is included in the six-document corpus."
+  },
+  {
+    "id": "U002",
+    "question": "What is the name of the advisor assigned to student Maria Lopez?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "The corpus has no student records or advisor assignments."
+  },
+  {
+    "id": "U003",
+    "question": "How many FIU students were placed on academic warning in fall 2026?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "The corpus contains policy triggers but not student counts."
+  },
+  {
+    "id": "U004",
+    "question": "What date and time is the next FIU commencement ceremony?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No commencement calendar or schedule is included."
+  },
+  {
+    "id": "U005",
+    "question": "What is the current price of an FIU parking permit?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "The corpus contains no parking permit prices."
+  },
+  {
+    "id": "U006",
+    "question": "Which professor teaches ENC 1101 section U01 in spring 2027?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No course section schedules or instructor assignments are included."
+  },
+  {
+    "id": "U007",
+    "question": "What was FIU's total institutional budget for fiscal year 2025–26?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No institutional financial statements or budget totals are included."
+  },
+  {
+    "id": "U008",
+    "question": "How many students used grade forgiveness during the last academic year?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No historical usage statistics are included."
+  },
+  {
+    "id": "U009",
+    "question": "What is the exact GPA shown on Jason Smith's unofficial transcript?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No individual academic transcript is present."
+  },
+  {
+    "id": "U010",
+    "question": "Will FIU waive the residency requirement for a specific student next semester?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "The corpus gives general residency rules, not future case-specific approvals."
+  },
+  {
+    "id": "U011",
+    "question": "What is the phone number of the dean who will review my major-change request?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No personnel directory or dean contact numbers are provided."
+  },
+  {
+    "id": "U012",
+    "question": "How many transfer credits from a specific unreviewed overseas university will be accepted?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No institution-specific course evaluation or transfer decision is provided."
+  },
+  {
+    "id": "U013",
+    "question": "What was the average grade in FIU's Calculus I sections last fall?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "The corpus includes grading rules but no class grade distributions."
+  },
+  {
+    "id": "U014",
+    "question": "Does FIU plan to change the grade-forgiveness limit in 2028?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "No future proposed policy changes or decisions are described."
+  },
+  {
+    "id": "U015",
+    "question": "Has my academic dismissal appeal already been approved?",
+    "expected_answer": "I don't know based on the provided documents.",
+    "answerable": false,
+    "source_document": null,
+    "source_url": null,
+    "supporting_passage": null,
+    "difficulty": "unanswerable",
+    "reason_unanswerable": "The corpus describes appeals but contains no individual appeal outcomes."
+  }
+]
