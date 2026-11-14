@@ -1,4 +1,4 @@
-# Grades and Grading System
+ # Grades and Grading System
 
 Source: https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system
 Retrieved for benchmark preparation: 2026-11-10
