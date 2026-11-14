@@ -1,0 +1,8 @@
+mellea
+ollama
+streamlit
+langchain-text-splitters
+tiktoken
+python-docx
+easyocr
+Spire.Doc.Free
