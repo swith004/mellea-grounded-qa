@@ -1,0 +1,452 @@
+[
+  {
+    "id": "A001",
+    "question": "What cumulative GPA triggers an academic warning for an undergraduate at FIU?",
+    "expected_answer": "A cumulative GPA below 2.0.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "Undergraduates receive an academic warning when their cumulative FIU GPA drops below 2.0.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A002",
+    "question": "When does an undergraduate on academic warning move to probation?",
+    "expected_answer": "When their cumulative GPA stays below 2.0.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "An undergraduate already on warning is placed on academic probation if the cumulative GPA remains under 2.0.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A003",
+    "question": "If a student on probation earns a 2.0 term GPA but still has a 1.9 cumulative GPA, are they automatically dismissed?",
+    "expected_answer": "No. They remain on probation.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "A student on probation with a term GPA of at least 2.0 stays on probation, rather than being dismissed, if the cumulative GPA is still below 2.0.",
+    "difficulty": "application"
+  },
+  {
+    "id": "A004",
+    "question": "Under what GPA circumstances is an undergraduate on probation automatically dismissed?",
+    "expected_answer": "When both cumulative and semester GPAs are below 2.0.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "An undergraduate already on probation is automatically dismissed when both the cumulative GPA and the semester GPA are below 2.0.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A005",
+    "question": "How many semester hours must an undergraduate have attempted before FIU can dismiss them academically?",
+    "expected_answer": "At least 20 semester hours.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "FIU does not academically dismiss an undergraduate before the student has attempted at least 20 semester hours.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A006",
+    "question": "What is the minimum duration of an academic dismissal?",
+    "expected_answer": "One year.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "Academic dismissal from FIU lasts at least one year.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A007",
+    "question": "How long does a dismissed student have to file an appeal for academic reinstatement?",
+    "expected_answer": "Ten working days.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "After academic dismissal, students have ten working days to submit an appeal for academic reinstatement.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A008",
+    "question": "What academic standing applies to a dismissed undergraduate who is reinstated?",
+    "expected_answer": "Academic probation.",
+    "answerable": true,
+    "source_document": "corpus/academic_standing.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/academicstanding/undergraduate",
+    "supporting_passage": "An undergraduate who is reinstated after academic dismissal returns on academic probation.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A009",
+    "question": "Do grades from transferred courses factor into FIU's GPA?",
+    "expected_answer": "No, FIU GPAs use grades earned at FIU.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "FIU calculates its grade point averages from FIU-earned grades; grades from transfer courses are excluded.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A010",
+    "question": "What is the difference between a term GPA and a cumulative GPA?",
+    "expected_answer": "A term GPA covers one term; the cumulative GPA covers FIU coursework across the student's current academic career.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "Term GPA considers courses taken in one term, while cumulative GPA reflects FIU coursework across the student's academic career.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A011",
+    "question": "How many grade points per credit hour is a B+ worth?",
+    "expected_answer": "3.33 grade points per credit hour.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "In FIU's grade table, a B+ corresponds to 3.330 points per credit hour.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A012",
+    "question": "How many grade points per credit hour is an A- worth?",
+    "expected_answer": "3.67 grade points per credit hour.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "In FIU's grade table, an A- corresponds to 3.670 points per credit hour.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A013",
+    "question": "Does a P (satisfactory pass) count toward a numerical GPA?",
+    "expected_answer": "No.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "The P grade carries no numerical grade-point value and is excluded from the GPA calculation.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A014",
+    "question": "How is the GPA calculated from course grades and credit hours?",
+    "expected_answer": "Sum each course's credits multiplied by its grade points, then divide by the total GPA-eligible credits.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "To compute GPA, multiply each graded course's credit hours by its grade-point value, add those products, and divide by the included credit hours.",
+    "difficulty": "procedural"
+  },
+  {
+    "id": "A015",
+    "question": "To how many decimal places does FIU round GPAs?",
+    "expected_answer": "Two decimal places.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "FIU rounds grade point averages to two decimal places.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A016",
+    "question": "How much coursework may be missing for an instructor to assign a regular incomplete grade?",
+    "expected_answer": "No more than 50%, and the student must otherwise be passing.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "A regular incomplete grade may be awarded when no more than half the coursework is missing and the student is otherwise earning a passing grade.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A017",
+    "question": "What happens if an incomplete grade is not resolved within two consecutive terms?",
+    "expected_answer": "It automatically becomes an F.",
+    "answerable": true,
+    "source_document": "corpus/grading.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/grades-grading-system",
+    "supporting_passage": "An incomplete must be completed within two consecutive terms, counting summer, or it automatically changes to an F.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A018",
+    "question": "What is the minimum number of semester credit hours required for an FIU bachelor's degree?",
+    "expected_answer": "120 semester credit hours.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "An FIU bachelor's degree requires at least 120 semester hours of acceptable coursework.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A019",
+    "question": "How many of the final credit hours must generally be completed at FIU for a bachelor's degree?",
+    "expected_answer": "The last 30 credit hours.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "For bachelor's degree residency, students ordinarily complete their final 30 credit hours at FIU, subject to advance-approved limited exceptions.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A020",
+    "question": "What is the minimum percentage of degree credits that must be awarded by FIU?",
+    "expected_answer": "25%.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "At least 25 percent of the total credit hours required for a bachelor's degree must be awarded by FIU.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A021",
+    "question": "What minimum cumulative FIU GPA is ordinarily needed for a bachelor's degree?",
+    "expected_answer": "2.0, unless the program specifies a higher minimum.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "Bachelor's degree candidates need a cumulative FIU GPA of at least 2.0, or a higher minimum if their program requires it.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A022",
+    "question": "Can American Sign Language satisfy the undergraduate foreign-language graduation requirement?",
+    "expected_answer": "Yes; the requirement ordinarily involves 8–10 sequential credits in one language.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "The listed foreign-language graduation requirement is 8 to 10 sequential credits in one language, and American Sign Language is acceptable.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A023",
+    "question": "How many summer credits are required for students entering an SUS institution with fewer than 60 credits?",
+    "expected_answer": "At least nine summer credits.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "Students who enter FIU or another Florida State University System institution with fewer than 60 credits must earn at least nine credits across one or more SUS summer terms.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A024",
+    "question": "How many additional semester hours are required to receive two bachelor's degrees simultaneously?",
+    "expected_answer": "At least 30 additional appropriate semester hours beyond one degree's requirements.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "Awarding two bachelor's degrees together requires at least 30 appropriate semester hours beyond the requirements of one degree.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A025",
+    "question": "If a student completes two majors concurrently, do they receive two degrees or one?",
+    "expected_answer": "One degree with both majors noted on the transcript.",
+    "answerable": true,
+    "source_document": "corpus/bachelors.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/degree-program/undergraduate/bachelors",
+    "supporting_passage": "A student completing two majors concurrently receives one bachelor's degree, with both majors identified on the transcript.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A026",
+    "question": "Which original course grades qualify for FIU undergraduate grade forgiveness?",
+    "expected_answer": "Grades lower than C.",
+    "answerable": true,
+    "source_document": "corpus/forgiveness.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+    "supporting_passage": "Undergraduate grade forgiveness is available only for courses in which the student initially earned below a C.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A027",
+    "question": "How many grade-forgiveness uses may an FIU undergraduate have?",
+    "expected_answer": "Three uses total.",
+    "answerable": true,
+    "source_document": "corpus/forgiveness.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+    "supporting_passage": "An FIU undergraduate can apply grade forgiveness no more than three times, regardless of how many bachelor's degrees are pursued.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A028",
+    "question": "Under grade forgiveness, which attempt's grade counts toward FIU's internal GPA calculation?",
+    "expected_answer": "The last repeated attempt's grade.",
+    "answerable": true,
+    "source_document": "corpus/forgiveness.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+    "supporting_passage": "When grade forgiveness applies, FIU uses the grade from the final repeated attempt for the internal GPA calculation, although all attempts remain on the transcript.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A029",
+    "question": "Must both attempts be completed at FIU for a repeated course to receive grade forgiveness?",
+    "expected_answer": "Yes.",
+    "answerable": true,
+    "source_document": "corpus/forgiveness.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+    "supporting_passage": "For grade forgiveness, both the original and repeated attempts must have been taken at FIU.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A030",
+    "question": "Must the repeated course use the same grading option and number of credits?",
+    "expected_answer": "Yes, ordinarily; credit-change exceptions may be granted.",
+    "answerable": true,
+    "source_document": "corpus/forgiveness.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+    "supporting_passage": "A qualifying repeated course normally matches the original course's grading option and credit count; a credit-count change can justify an exception.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A031",
+    "question": "Can grade forgiveness be applied to a student's record after their degree has been conferred?",
+    "expected_answer": "No.",
+    "answerable": true,
+    "source_document": "corpus/forgiveness.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+    "supporting_passage": "After the bachelor's degree has been conferred, FIU will not apply grade forgiveness to that student's record.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A032",
+    "question": "Can a student use grade forgiveness for a course in which they were found responsible for academic misconduct?",
+    "expected_answer": "No.",
+    "answerable": true,
+    "source_document": "corpus/forgiveness.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/grading/gradeforgiveness",
+    "supporting_passage": "A student found responsible for academic misconduct in a course cannot use undergraduate grade forgiveness for that course.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A033",
+    "question": "What is the maximum number of lower-division transfer credits that can count toward an FIU degree?",
+    "expected_answer": "60 lower-division credits.",
+    "answerable": true,
+    "source_document": "corpus/transfer.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+    "supporting_passage": "No more than 60 lower-division transfer credits may count toward an FIU degree.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A034",
+    "question": "What is the maximum number of upper-division transfer credits that can count toward an FIU degree?",
+    "expected_answer": "30 upper-division credits.",
+    "answerable": true,
+    "source_document": "corpus/transfer.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+    "supporting_passage": "No more than 30 upper-division transfer credits may count toward an FIU degree.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A035",
+    "question": "Can a transferred course with a D grade be accepted for credit?",
+    "expected_answer": "Possibly yes, but the D may not meet the major's requirements.",
+    "answerable": true,
+    "source_document": "corpus/transfer.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+    "supporting_passage": "FIU may accept a transferred course graded D, but the grade does not necessarily satisfy requirements in the major.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A036",
+    "question": "Who determines whether transfer courses satisfy upper-division program requirements?",
+    "expected_answer": "The relevant academic department.",
+    "answerable": true,
+    "source_document": "corpus/transfer.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+    "supporting_passage": "Academic departments determine transfer-course equivalencies that apply to their programs, including upper-division requirements.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A037",
+    "question": "What approval should an enrolled FIU student obtain before taking a class at another institution for transfer?",
+    "expected_answer": "Advance documented approval from their academic advisor.",
+    "answerable": true,
+    "source_document": "corpus/transfer.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+    "supporting_passage": "FIU students planning to take courses elsewhere for transfer must obtain advance documented approval from an academic advisor.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A038",
+    "question": "If two exams award duplicate credit, which exam credit is awarded?",
+    "expected_answer": "The examination that yields more credit.",
+    "answerable": true,
+    "source_document": "corpus/transfer.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+    "supporting_passage": "Credit-by-exam cannot duplicate existing credit; when duplicate exam credit exists, FIU awards the exam yielding the most credit.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A039",
+    "question": "What office handles appeals of accepted or denied transfer credits?",
+    "expected_answer": "Transfer and Transition Services (TTS).",
+    "answerable": true,
+    "source_document": "corpus/transfer.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/courses-credit/credit/undergraduate-transfer",
+    "supporting_passage": "Students can appeal transfer-credit acceptance or denial through FIU's Transfer and Transition Services office.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A040",
+    "question": "How many credits must students covered by the 2026 FIU University Core Curriculum complete?",
+    "expected_answer": "At least 36 UCC credits.",
+    "answerable": true,
+    "source_document": "corpus/ucc.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/undergraduate-requirements/universitycore",
+    "supporting_passage": "FIU's 2026 University Core Curriculum requires a minimum of 36 credits across its approved courses.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A041",
+    "question": "What are the five categories in FIU's 2026 University Core Curriculum?",
+    "expected_answer": "Communication, Humanities, Mathematics, Natural Science, and Social Science.",
+    "answerable": true,
+    "source_document": "corpus/ucc.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/undergraduate-requirements/universitycore",
+    "supporting_passage": "The five UCC subject categories are Communication, Humanities, Mathematics, Natural Science, and Social Science.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A042",
+    "question": "What is the 2026 Writing Intensive Requirement (WIR)?",
+    "expected_answer": "Six credits in two WIR-designated UCC courses, each with a grade of C or higher.",
+    "answerable": true,
+    "source_document": "corpus/ucc.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/undergraduate-requirements/universitycore",
+    "supporting_passage": "The Writing Intensive Requirement calls for six credit hours from two WIR-designated UCC courses, each completed with at least a C.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A043",
+    "question": "May 2026 UCC courses be taken pass/fail to satisfy the core requirements?",
+    "expected_answer": "No; the approved UCC courses must be taken for letter grades.",
+    "answerable": true,
+    "source_document": "corpus/ucc.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/undergraduate-requirements/universitycore",
+    "supporting_passage": "FIU's UCC instructions specify that the approved core courses must all be taken for a letter grade.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A044",
+    "question": "Which students are required to take FIU's one-credit First-Year Experience course?",
+    "expected_answer": "Students entering with fewer than 30 semester hours, during their first or second year.",
+    "answerable": true,
+    "source_document": "corpus/ucc.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/undergraduate-requirements/universitycore",
+    "supporting_passage": "Students entering FIU with fewer than 30 semester hours must take the one-credit First-Year Experience course in their first or second year.",
+    "difficulty": "direct"
+  },
+  {
+    "id": "A045",
+    "question": "What science laboratory requirement does the 2026 UCC describe?",
+    "expected_answer": "At least one lab corresponding to a Group One or Group Two natural science course.",
+    "answerable": true,
+    "source_document": "corpus/ucc.md",
+    "source_url": "https://catalog.fiu.edu/policiesandprocesses/program-graduation/undergraduate-requirements/universitycore",
+    "supporting_passage": "For graduation, students complete at least one natural science lab associated with a Natural Science Group One or Group Two course.",
+    "difficulty": "direct"
+  }
+]

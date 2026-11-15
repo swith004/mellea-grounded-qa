@@ -1,0 +1,41 @@
+{
+  "pipeline": "baseline",
+  "model": "granite4.1:3b",
+  "k": 4,
+  "questions": 60,
+  "answerable": {
+    "retrieval_doc_recall": {
+      "n": 45,
+      "of": 45,
+      "rate": 1.0
+    },
+    "retrieval_passage_recall": {
+      "n": 44,
+      "of": 45,
+      "rate": 0.978
+    },
+    "citation_rate": {
+      "n": 0,
+      "of": 45,
+      "rate": 0.0
+    },
+    "false_refusal_rate": {
+      "n": 0,
+      "of": 45,
+      "rate": 0.0
+    }
+  },
+  "unanswerable": {
+    "refusal_accuracy": {
+      "n": 15,
+      "of": 15,
+      "rate": 1.0
+    },
+    "hallucination_rate": {
+      "n": 0,
+      "of": 15,
+      "rate": 0.0
+    }
+  },
+  "mean_latency_s": 5.85
+}
